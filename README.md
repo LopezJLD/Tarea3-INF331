@@ -1,4 +1,4 @@
-```markdown
+
 # Sistema de Fidelidad Gamificada
 
 Programa de gestión de fidelización para tiendas de conveniencia con acumulación de puntos, niveles y bonificaciones.
@@ -16,6 +16,7 @@ Programa de gestión de fidelización para tiendas de conveniencia con acumulaci
   6. Registrar compra
 
 ## Diagrama UML
+
 
 ```mermaid
 classDiagram
@@ -63,6 +64,7 @@ classDiagram
         +determinarNivel(int puntos)$ Nivel
     }
 ```
+
 
 ## Instrucciones de Uso
 
