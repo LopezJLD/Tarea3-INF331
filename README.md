@@ -134,3 +134,18 @@ Se aplicó Desarrollo Guiado por Pruebas en componentes críticos:
 - El bonus por compras consecutivas aplica solo para compras el mismo día
 - Los niveles se recalculan automáticamente tras cada compra
 
+
+## 📜 Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE).
+
+```text
+MIT License
+
+Copyright (c) 2025 Joaquin Lopez Diaz
+
+Se concede permiso, libre de cargos, a cualquier persona que obtenga una copia
+de este software y los archivos de documentación asociados (el "Software"), 
+a utilizar el Software sin restricción, incluyendo sin limitación los derechos
+de uso, copia, modificación, fusión, publicación, distribución, sublicencia 
+y/o venta de copias del Software.
