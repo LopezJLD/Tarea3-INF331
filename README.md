@@ -134,8 +134,19 @@ Se aplicó Desarrollo Guiado por Pruebas en componentes críticos:
 - El bonus por compras consecutivas aplica solo para compras el mismo día
 - Los niveles se recalculan automáticamente tras cada compra
 
+**Sobre la Cobertura de Código**
 
-## 📜 Licencia
+Para medir la calidad de las pruebas implementadas, utilice JaCoCo como herramienta de análisis. Esta herramienta me permitió verificar dos aspectos clave:
+
+-Cobertura de líneas:Mide qué porcentaje del código fuente fue ejecutado durante las pruebas. En mi caso, me enfoqué en asegurar que los componentes centrales como el cálculo de puntos y la gestión de niveles tuvieran una cobertura completa.
+
+-Cobertura de ramas:Evalúa si todas las posibles decisiones lógicas (como las condiciones if/else o switch) fueron probadas. Esto fue especialmente importante para probar todos los casos de cambio de nivel (Bronce, Plata, Oro, Platino).
+
+Opté por JaCoCo porque es la solución más utilizada en proyectos Java con Maven, y porque ofrece una integración directa con el ciclo de construcción. Los reportes generados me ayudaron a identificar rápidamente qué partes del código necesitaban más atención en las pruebas.
+
+Para ver los resultados exactos, basta con ejecutar `mvn jacoco:report` y revisar el detalle en el archivo HTML generado en la carpeta target/site/jacoco/.
+
+##  Licencia
 
 Este proyecto está bajo la [Licencia MIT](LICENSE).
 
