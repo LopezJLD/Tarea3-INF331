@@ -53,6 +53,18 @@ Reporte en: `target/site/jacoco/index.html`
 
 ---
 
+
+
+### Notas Adicionales
+**TDD**: Los tests se desarrollaron primero en casos críticos (cálculo de puntos, niveles)
+**Cobertura**: JaCoCo mide:
+   - Líneas de código ejecutadas
+   - Decisiones lógicas cubiertas
+   - Complejidad ciclomática
+**Extensibilidad**: Diseñado para fácil migración a base de datos
+**Validaciones**: Se incluyen en servicio, no en modelos
+
+
 ## Diagrama UML
 ```mermaid
 classDiagram
@@ -82,14 +94,3 @@ classDiagram
         +double multiplicador
     }
 
-
-
-
-### Notas Adicionales
-**TDD**: Los tests se desarrollaron primero en casos críticos (cálculo de puntos, niveles)
-**Cobertura**: JaCoCo mide:
-   - Líneas de código ejecutadas
-   - Decisiones lógicas cubiertas
-   - Complejidad ciclomática
-**Extensibilidad**: Diseñado para fácil migración a base de datos
-**Validaciones**: Se incluyen en servicio, no en modelos
