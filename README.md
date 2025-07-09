@@ -133,4 +133,4 @@ Se aplicó Desarrollo Guiado por Pruebas en componentes críticos:
 - Persistencia actual en memoria (no persistente entre ejecuciones)
 - El bonus por compras consecutivas aplica solo para compras el mismo día
 - Los niveles se recalculan automáticamente tras cada compra
-```
+
